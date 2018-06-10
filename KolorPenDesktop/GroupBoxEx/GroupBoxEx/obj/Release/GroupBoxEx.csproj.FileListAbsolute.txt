@@ -1,0 +1,9 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects (C Sharp)\GroupBoxEx\GroupBoxEx\bin\Release\GroupBoxEx.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects (C Sharp)\GroupBoxEx\GroupBoxEx\bin\Release\GroupBoxEx.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects (C Sharp)\GroupBoxEx\GroupBoxEx\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects (C Sharp)\GroupBoxEx\GroupBoxEx\obj\Release\GroupBoxEx.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects (C Sharp)\GroupBoxEx\GroupBoxEx\obj\Release\GroupBoxEx.pdb
+C:\work\ATECU\src\AFT-Ver-SW0003.01.08\SmartDoseTesterNewParam\GroupBoxEx\GroupBoxEx\bin\Release\GroupBoxEx.dll
+C:\work\ATECU\src\AFT-Ver-SW0003.01.08\SmartDoseTesterNewParam\GroupBoxEx\GroupBoxEx\bin\Release\GroupBoxEx.pdb
+C:\work\ATECU\src\AFT-Ver-SW0003.01.08\SmartDoseTesterNewParam\GroupBoxEx\GroupBoxEx\obj\Release\GroupBoxEx.dll
+C:\work\ATECU\src\AFT-Ver-SW0003.01.08\SmartDoseTesterNewParam\GroupBoxEx\GroupBoxEx\obj\Release\GroupBoxEx.pdb

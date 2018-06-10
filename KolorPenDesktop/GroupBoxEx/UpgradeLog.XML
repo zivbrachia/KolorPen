@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="GroupBoxEx">
+</Property><Property Name="Solution File" Value="D:\VS-2010\Projects\GroupBoxCustomControll\GroupBoxEx\GroupBoxEx.sln">
+</Property><Property Name="User Options File" Value="D:\VS-2010\Projects\GroupBoxCustomControll\GroupBoxEx\GroupBoxEx.suo">
+</Property><Property Name="Date" Value="Saturday, October 03, 2015">
+</Property><Property Name="Time" Value="9:24 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="GroupBoxEx.sln" Description="File successfully backed up as D:\VS-2010\Projects\GroupBoxCustomControll\GroupBoxEx\Backup\GroupBoxEx.sln">
+</Event><Event ErrorLevel="0" Project="" Source="GroupBoxEx.suo" Description="File successfully backed up as D:\VS-2010\Projects\GroupBoxCustomControll\GroupBoxEx\Backup\GroupBoxEx.suo">
+</Event><Event ErrorLevel="0" Project="GroupBoxEx" Source="GroupBoxEx\GroupBoxEx.csproj" Description="Project file successfully backed up as D:\VS-2010\Projects\GroupBoxCustomControll\GroupBoxEx\Backup\GroupBoxEx\GroupBoxEx.csproj">
+</Event><Event ErrorLevel="0" Project="GroupBoxEx" Source="GroupBoxEx\GroupBoxEx.csproj.user" Description="Project user file successfully backed up as D:\VS-2010\Projects\GroupBoxCustomControll\GroupBoxEx\Backup\GroupBoxEx\GroupBoxEx.csproj.user">
+</Event><Event ErrorLevel="0" Project="GroupBoxEx" Source="GroupBoxEx\GroupBoxEx.cs" Description="File successfully backed up as D:\VS-2010\Projects\GroupBoxCustomControll\GroupBoxEx\Backup\GroupBoxEx\GroupBoxEx.cs">
+</Event><Event ErrorLevel="0" Project="GroupBoxEx" Source="GroupBoxEx\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\VS-2010\Projects\GroupBoxCustomControll\GroupBoxEx\Backup\GroupBoxEx\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="GroupBoxEx" Source="GroupBoxEx\GroupBoxEx.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="GroupBoxEx" Source="GroupBoxEx\GroupBoxEx.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="GroupBoxEx.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="GroupBoxEx.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="GroupBoxEx" Source="GroupBoxEx\GroupBoxEx.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

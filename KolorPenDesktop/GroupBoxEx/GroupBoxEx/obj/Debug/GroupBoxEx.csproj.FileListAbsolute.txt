@@ -1,0 +1,60 @@
+D:\VS-2010\Projects\GroupBoxCustomControll\GroupBoxEx\GroupBoxEx\bin\Debug\GroupBoxEx.dll
+D:\VS-2010\Projects\GroupBoxCustomControll\GroupBoxEx\GroupBoxEx\bin\Debug\GroupBoxEx.pdb
+D:\VS-2010\Projects\GroupBoxCustomControll\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.dll
+D:\VS-2010\Projects\GroupBoxCustomControll\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.pdb
+D:\Projects\SmartDoseTester\GroupBoxEx\GroupBoxEx\bin\Debug\GroupBoxEx.dll
+D:\Projects\SmartDoseTester\GroupBoxEx\GroupBoxEx\bin\Debug\GroupBoxEx.pdb
+D:\Projects\SmartDoseTester\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.csprojResolveAssemblyReference.cache
+D:\Projects\SmartDoseTester\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.dll
+D:\Projects\SmartDoseTester\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.pdb
+C:\work\ATECU\src\AFT-Ver-SW0003.01.08\SmartDoseTesterNewParam\GroupBoxEx\GroupBoxEx\bin\Debug\GroupBoxEx.dll
+C:\work\ATECU\src\AFT-Ver-SW0003.01.08\SmartDoseTesterNewParam\GroupBoxEx\GroupBoxEx\bin\Debug\GroupBoxEx.pdb
+C:\work\ATECU\src\AFT-Ver-SW0003.01.08\SmartDoseTesterNewParam\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.dll
+C:\work\ATECU\src\AFT-Ver-SW0003.01.08\SmartDoseTesterNewParam\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.pdb
+D:\WMC\Projects\SmartDose EVO\EVO1.5\AFT-Ver-SW0003.01.21\SmartDoseTesterNewParam\GroupBoxEx\GroupBoxEx\bin\Debug\GroupBoxEx.dll
+D:\WMC\Projects\SmartDose EVO\EVO1.5\AFT-Ver-SW0003.01.21\SmartDoseTesterNewParam\GroupBoxEx\GroupBoxEx\bin\Debug\GroupBoxEx.pdb
+D:\WMC\Projects\SmartDose EVO\EVO1.5\AFT-Ver-SW0003.01.21\SmartDoseTesterNewParam\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.csprojResolveAssemblyReference.cache
+D:\WMC\Projects\SmartDose EVO\EVO1.5\AFT-Ver-SW0003.01.21\SmartDoseTesterNewParam\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.dll
+D:\WMC\Projects\SmartDose EVO\EVO1.5\AFT-Ver-SW0003.01.21\SmartDoseTesterNewParam\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.pdb
+D:\WMC\Projects\SmartDose EVO\EVO1.5\AFT-Ver-SW0003.01.22_DRAFT\SmartDoseTesterNewParam\GroupBoxEx\GroupBoxEx\bin\Debug\GroupBoxEx.dll
+D:\WMC\Projects\SmartDose EVO\EVO1.5\AFT-Ver-SW0003.01.22_DRAFT\SmartDoseTesterNewParam\GroupBoxEx\GroupBoxEx\bin\Debug\GroupBoxEx.pdb
+D:\WMC\Projects\SmartDose EVO\EVO1.5\AFT-Ver-SW0003.01.22_DRAFT\SmartDoseTesterNewParam\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.dll
+D:\WMC\Projects\SmartDose EVO\EVO1.5\AFT-Ver-SW0003.01.22_DRAFT\SmartDoseTesterNewParam\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.pdb
+D:\WMC\Projects\SmartDose EVO\EVO1.5\AFT-Ver-SW0003.01.22\SmartDoseTesterNewParam\GroupBoxEx\GroupBoxEx\bin\Debug\GroupBoxEx.dll
+D:\WMC\Projects\SmartDose EVO\EVO1.5\AFT-Ver-SW0003.01.22\SmartDoseTesterNewParam\GroupBoxEx\GroupBoxEx\bin\Debug\GroupBoxEx.pdb
+D:\WMC\Projects\SmartDose EVO\EVO1.5\AFT-Ver-SW0003.01.22\SmartDoseTesterNewParam\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.dll
+D:\WMC\Projects\SmartDose EVO\EVO1.5\AFT-Ver-SW0003.01.22\SmartDoseTesterNewParam\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.pdb
+D:\WMC\Projects\SmartDose EVO\EVO1.5\AFT-Ver-SW0003.01.23\SmartDoseTesterNewParam\GroupBoxEx\GroupBoxEx\bin\Debug\GroupBoxEx.dll
+D:\WMC\Projects\SmartDose EVO\EVO1.5\AFT-Ver-SW0003.01.23\SmartDoseTesterNewParam\GroupBoxEx\GroupBoxEx\bin\Debug\GroupBoxEx.pdb
+D:\WMC\Projects\SmartDose EVO\EVO1.5\AFT-Ver-SW0003.01.23\SmartDoseTesterNewParam\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.dll
+D:\WMC\Projects\SmartDose EVO\EVO1.5\AFT-Ver-SW0003.01.23\SmartDoseTesterNewParam\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.pdb
+D:\WMC\Projects\SmartDose EVO\EVO1.5\AFT-Ver-SW0003.01.24\SmartDoseTesterNewParam\GroupBoxEx\GroupBoxEx\bin\Debug\GroupBoxEx.dll
+D:\WMC\Projects\SmartDose EVO\EVO1.5\AFT-Ver-SW0003.01.24\SmartDoseTesterNewParam\GroupBoxEx\GroupBoxEx\bin\Debug\GroupBoxEx.pdb
+D:\WMC\Projects\SmartDose EVO\EVO1.5\AFT-Ver-SW0003.01.24\SmartDoseTesterNewParam\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.csprojResolveAssemblyReference.cache
+D:\WMC\Projects\SmartDose EVO\EVO1.5\AFT-Ver-SW0003.01.24\SmartDoseTesterNewParam\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.dll
+D:\WMC\Projects\SmartDose EVO\EVO1.5\AFT-Ver-SW0003.01.24\SmartDoseTesterNewParam\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.pdb
+D:\Projects\SmartDoseTester-AFT-Ver-SW0003.01.24\GroupBoxEx\GroupBoxEx\bin\Debug\GroupBoxEx.dll
+D:\Projects\SmartDoseTester-AFT-Ver-SW0003.01.24\GroupBoxEx\GroupBoxEx\bin\Debug\GroupBoxEx.pdb
+D:\Projects\SmartDoseTester-AFT-Ver-SW0003.01.24\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.csprojResolveAssemblyReference.cache
+D:\Projects\SmartDoseTester-AFT-Ver-SW0003.01.24\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.dll
+D:\Projects\SmartDoseTester-AFT-Ver-SW0003.01.24\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.pdb
+D:\Projects\SmartDoseTester-AFT-Ver-SW0003.01.24 - 25-2\GroupBoxEx\GroupBoxEx\bin\Debug\GroupBoxEx.dll
+D:\Projects\SmartDoseTester-AFT-Ver-SW0003.01.24 - 25-2\GroupBoxEx\GroupBoxEx\bin\Debug\GroupBoxEx.pdb
+D:\Projects\SmartDoseTester-AFT-Ver-SW0003.01.24 - 25-2\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.csprojResolveAssemblyReference.cache
+D:\Projects\SmartDoseTester-AFT-Ver-SW0003.01.24 - 25-2\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.dll
+D:\Projects\SmartDoseTester-AFT-Ver-SW0003.01.24 - 25-2\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.pdb
+D:\Projects\SmartDoseTester-AFT-Ver-SW0003.01.262\GroupBoxEx\GroupBoxEx\bin\Debug\GroupBoxEx.dll
+D:\Projects\SmartDoseTester-AFT-Ver-SW0003.01.262\GroupBoxEx\GroupBoxEx\bin\Debug\GroupBoxEx.pdb
+D:\Projects\SmartDoseTester-AFT-Ver-SW0003.01.262\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.csprojResolveAssemblyReference.cache
+D:\Projects\SmartDoseTester-AFT-Ver-SW0003.01.262\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.dll
+D:\Projects\SmartDoseTester-AFT-Ver-SW0003.01.262\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.pdb
+C:\Projects\SmartDoseTester-AFT\GroupBoxEx\GroupBoxEx\bin\Debug\GroupBoxEx.dll
+C:\Projects\SmartDoseTester-AFT\GroupBoxEx\GroupBoxEx\bin\Debug\GroupBoxEx.pdb
+C:\Projects\SmartDoseTester-AFT\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.csprojResolveAssemblyReference.cache
+C:\Projects\SmartDoseTester-AFT\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.dll
+C:\Projects\SmartDoseTester-AFT\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.pdb
+C:\Users\ZIVBR\Desktop\KolorPen\KolorPen\GroupBoxEx\GroupBoxEx\bin\Debug\GroupBoxEx.dll
+C:\Users\ZIVBR\Desktop\KolorPen\KolorPen\GroupBoxEx\GroupBoxEx\bin\Debug\GroupBoxEx.pdb
+C:\Users\ZIVBR\Desktop\KolorPen\KolorPen\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.csprojResolveAssemblyReference.cache
+C:\Users\ZIVBR\Desktop\KolorPen\KolorPen\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.dll
+C:\Users\ZIVBR\Desktop\KolorPen\KolorPen\GroupBoxEx\GroupBoxEx\obj\Debug\GroupBoxEx.pdb
