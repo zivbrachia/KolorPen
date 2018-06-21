@@ -342,17 +342,18 @@ namespace KolorPen
 
         private void btnSendFrequency_Click(object sender, EventArgs e)
         {
-            double dVoltageValue = ((double)knobFrequency.Value * (double)FREQUENCY_VOLTAGE_MAX) / (double)FREQUENCY_KNOB_MAX;
-            double dFrequencyr = (dVoltageValue * (double)FREQUENCY_A2D_BITS_VALUE) / (double)FREQUENCY_VOLTAGE_MAX;
+           // double dVoltageValue = ((double)knobFrequency.Value * (double)FREQUENCY_VOLTAGE_MAX) / (double)FREQUENCY_KNOB_MAX;
+            //double dFrequencyr = (dVoltageValue * (double)FREQUENCY_A2D_BITS_VALUE) / (double)FREQUENCY_VOLTAGE_MAX;
 
-            txtSendData.Text = "F " + ((int)dFrequencyr).ToString();
+            txtSendData.Text = "F " + ((int)knobFrequency.Value).ToString();
             SendData();
         }
 
         private void btnPower_Click(object sender, EventArgs e)
         {
-            double dVoltageValue = ((double)knobPower.Value * (double)POWER_VOLTAGE_MAX) / (double)POWER_KNOB_MAX;
-            double dPower = (dVoltageValue * (double)POWER_A2D_BITS_VALUE) / (double)POWER_VOLTAGE_MAX;
+            //double dVoltageValue = ((double)knobPower.Value * (double)POWER_VOLTAGE_MAX) / (double)POWER_KNOB_MAX;
+            //double dPower = (dVoltageValue * (double)POWER_A2D_BITS_VALUE) / (double)POWER_VOLTAGE_MAX;
+            double dPower = ((double)knobPower.Value * (double)1023) / (double)POWER_KNOB_MAX;
 
             txtSendData.Text = "O " + ((int)dPower).ToString();
             SendData();

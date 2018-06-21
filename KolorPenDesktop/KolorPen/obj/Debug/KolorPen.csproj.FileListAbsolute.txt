@@ -27,3 +27,17 @@ C:\Users\ZIVBR\Desktop\KolorPen\KolorPen\KolorPen\obj\Debug\KolorPen.csprojResol
 C:\Users\ZIVBR\Desktop\KolorPen\KolorPen\KolorPen\obj\Debug\KolorPen.frmKolorPen.resources
 C:\Users\ZIVBR\Desktop\KolorPen\KolorPen\KolorPen\obj\Debug\KolorPen.Properties.Resources.resources
 C:\Users\ZIVBR\Desktop\KolorPen\KolorPen\KolorPen\obj\Debug\KolorPen.csproj.GenerateResource.Cache
+C:\Users\ZIVBR\Desktop\KolorPen\KolorPen\KolorPenDesktop\KolorPen\bin\Debug\KolorPen.exe.config
+C:\Users\ZIVBR\Desktop\KolorPen\KolorPen\KolorPenDesktop\KolorPen\obj\Debug\KolorPen.exe
+C:\Users\ZIVBR\Desktop\KolorPen\KolorPen\KolorPenDesktop\KolorPen\obj\Debug\KolorPen.pdb
+C:\Users\ZIVBR\Desktop\KolorPen\KolorPen\KolorPenDesktop\KolorPen\bin\Debug\KolorPen.exe
+C:\Users\ZIVBR\Desktop\KolorPen\KolorPen\KolorPenDesktop\KolorPen\bin\Debug\KolorPen.pdb
+C:\Users\ZIVBR\Desktop\KolorPen\KolorPen\KolorPenDesktop\KolorPen\bin\Debug\GroupBoxEx.dll
+C:\Users\ZIVBR\Desktop\KolorPen\KolorPen\KolorPenDesktop\KolorPen\bin\Debug\KnobControl.dll
+C:\Users\ZIVBR\Desktop\KolorPen\KolorPen\KolorPenDesktop\KolorPen\bin\Debug\GroupBoxEx.pdb
+C:\Users\ZIVBR\Desktop\KolorPen\KolorPen\KolorPenDesktop\KolorPen\bin\Debug\KnobControl.pdb
+C:\Users\ZIVBR\Desktop\KolorPen\KolorPen\KolorPenDesktop\KolorPen\bin\Debug\PictureBoxEx.pdb
+C:\Users\ZIVBR\Desktop\KolorPen\KolorPen\KolorPenDesktop\KolorPen\obj\Debug\KolorPen.csprojResolveAssemblyReference.cache
+C:\Users\ZIVBR\Desktop\KolorPen\KolorPen\KolorPenDesktop\KolorPen\obj\Debug\KolorPen.frmKolorPen.resources
+C:\Users\ZIVBR\Desktop\KolorPen\KolorPen\KolorPenDesktop\KolorPen\obj\Debug\KolorPen.Properties.Resources.resources
+C:\Users\ZIVBR\Desktop\KolorPen\KolorPen\KolorPenDesktop\KolorPen\obj\Debug\KolorPen.csproj.GenerateResource.Cache
