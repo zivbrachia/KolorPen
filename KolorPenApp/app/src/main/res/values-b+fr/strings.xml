@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">KolorPen</string>
+
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="uniqueMacAddress"></string>
+    <string name="extra_address">device_address</string>
+    <string name="title_activity_treatment_list">TreatmentList</string>
+    <string name="title_activity_color_picker">ColorPickerActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="dps">FR_DPS</string>
+    <string name="power">FR_POWER</string>
+
+    <string name="quick_tutorial">FR_Quick Tutorial</string>
+    <string name="user_guide">FR_User Guide</string>
+    <string name="app_update">FR_Application Update</string>
+
+    <string name="scan_code">FR_Scan QR Code</string>
+    <string name="color_remain">FR_Color Remain</string>
+    <string name="description_of_use">FR_Description of use</string>
+    <string name="ingredients">FR_Ingredients</string>
+    <string name="name_of_color">FR_Name of color</string>
+    <string name="amount_of_color">FR_Amount of color</string>
+    <string name="shelf_life_before">FR_Shelf life before opening</string>
+    <string name="shelf_life_after">FR_Shelf life after opening</string>
+    <string name="comp_details">FR_Company Name and Address</string>
+
+    <string name="quick_tutorial_file">fr_quick_tutorial.pdf</string>
+    <string name="user_guide_file">fr_user_guide.pdf</string>
+
+    <string name="customer_name">fr_Name</string>
+    <string name="description">fr_Description</string>
+    <string name="photo_before">fr_before</string>
+    <string name="photo_after">fr_after</string>
+    <string name="name_is_must">fr Must Enter Name First</string>
+
+</resources>

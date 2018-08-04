@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/constraintLayoutId"
+    tools:context=".MainActivity"
+    android:keepScreenOn="true"
+    android:background="@drawable/screen_background">
+
+   <Button
+        android:id="@+id/btnPen1"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/pen_1_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/session" />
+
+    <Button
+        android:id="@+id/btnPen2"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/pen_2_2"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnPen1" />
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/setting_2"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnPen2" />
+
+    <Button
+        android:id="@+id/btnColor"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/color_parameters_2"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnSettings" />
+
+    <Button
+        android:id="@+id/session"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/sessions_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageConnect"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/bluetooth_on_2"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnColor" />
+
+    <ImageView
+        android:id="@+id/imageDisconnect"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnColor"
+        android:background="@drawable/bluetooth_off_2"
+         />
+
+    <com.akaita.android.circularseekbar.CircularSeekBar
+        android:id="@+id/seekBarDPS"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="68dp"
+        app:enabled="true"
+        app:innerCircleColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.282"
+        app:max="100"
+        app:min="0"
+        app:progress="0"
+        app:progressTextColor="@android:color/black"
+        app:progressTextSize="26"
+        app:ringColor="@color/colorAccent"
+        app:ringWidth="0.4"
+        app:showIndicator="true"
+        app:showInnerCircle="true"
+        app:showProgressText="true"
+        app:speedMultiplier="2" />
+
+    <com.akaita.android.circularseekbar.CircularSeekBar
+        android:id="@+id/seekBarVolume"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        app:enabled="true"
+        app:innerCircleColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBarDPS"
+        app:max="100"
+        app:min="0"
+        app:progress="0"
+        app:progressTextColor="@android:color/black"
+        app:progressTextSize="26"
+        app:ringColor="@color/colorAccent"
+        app:ringWidth="0.4"
+        app:showIndicator="true"
+        app:showInnerCircle="true"
+        app:showProgressText="true"
+        app:speedMultiplier="2" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="90dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBarVolume" />
+
+    <View
+        android:id="@+id/greenRingDps"
+        android:layout_width="286dp"
+        android:layout_height="286dp"
+        android:background="@drawable/green_roller"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/seekBarDPS"
+        app:layout_constraintEnd_toEndOf="@+id/seekBarDPS"
+        app:layout_constraintStart_toStartOf="@+id/seekBarDPS"
+        app:layout_constraintTop_toTopOf="@+id/seekBarDPS" />
+
+    <View
+        android:id="@+id/greenRingVolume"
+        android:layout_width="286dp"
+        android:layout_height="286dp"
+        android:background="@drawable/green_roller"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/seekBarVolume"
+        app:layout_constraintEnd_toEndOf="@+id/seekBarVolume"
+        app:layout_constraintStart_toStartOf="@+id/seekBarVolume"
+        app:layout_constraintTop_toTopOf="@+id/seekBarVolume" />
+
+    <View
+        android:id="@+id/blueRingDps"
+        android:layout_width="286dp"
+        android:layout_height="286dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/blue_roller"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/seekBarDPS"
+        app:layout_constraintEnd_toEndOf="@+id/seekBarDPS"
+        app:layout_constraintStart_toStartOf="@+id/seekBarDPS"
+        app:layout_constraintTop_toTopOf="@+id/seekBarDPS" />
+
+    <View
+        android:id="@+id/blueRingVolume"
+        android:layout_width="286dp"
+        android:layout_height="286dp"
+        android:background="@drawable/blue_roller"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/seekBarVolume"
+        app:layout_constraintEnd_toEndOf="@+id/seekBarVolume"
+        app:layout_constraintStart_toStartOf="@+id/seekBarVolume"
+        app:layout_constraintTop_toTopOf="@+id/seekBarVolume" />
+
+ <TextView
+     android:id="@+id/duration"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginEnd="40dp"
+     android:layout_marginRight="40dp"
+     android:layout_marginTop="220dp"
+     android:text="00:00:00"
+     android:textSize="18dp"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/currentTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="220dp"
+        android:text="January 30, 2021 18:32"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--<Button-->
+        <!--android:id="@+id/btnCustomer"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:text="Customer name"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/startTreatment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:text="Start Treatment"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.0"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/btnPen2" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tvCustomer"-->
+        <!--android:layout_width="287dp"-->
+        <!--android:layout_height="56dp"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:text=""-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/stopTreatment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:text="Stop Treatment"-->
+        <!--android:visibility="invisible"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.0"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/btnPen2" />-->
+
+</android.support.constraint.ConstraintLayout>

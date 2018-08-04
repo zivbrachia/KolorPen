@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ColorPickerActivity$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <ImageView
+        android:id="@+id/ivPenSelected"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/pen_1_tab" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="609dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivPenSelected"
+        app:layout_constraintVertical_bias="0.105"
+        tools:layout_editor_absoluteX="0dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/tvColorRemain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Color Remain: 28 ml"
+                android:textSize="28dp"
+                android:textStyle="bold|italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.525"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvDescOfUse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="60dp"
+                android:text="Description Of Use"
+                android:textSize="18dp"
+                android:textStyle="bold|italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvColorRemain" />
+
+            <TextView
+                android:id="@+id/tvDescOfUseData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:scrollHorizontally="false"
+                android:singleLine="false"
+                android:text="TextViewasdfdsafa\ndsfa\ndfasdf\nadsfad\nsfasdfasdfasdfasdfasdfasdfasdfasdfasdf366666666\n2343asdfasdfasdfasdfasdfasdfasdfasdfsadfasdf"
+                app:layout_constraintStart_toStartOf="@+id/tvDescOfUse"
+                app:layout_constraintTop_toBottomOf="@+id/tvDescOfUse" />
+
+            <TextView
+                android:id="@+id/tvDescOfUse1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="8dp"
+                android:text="Ingredients"
+                android:textSize="18dp"
+                android:textStyle="bold|italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.612"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvDescOfUseData" />
+
+            <TextView
+                android:id="@+id/tvDescOfUseData1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:scrollHorizontally="false"
+                android:singleLine="false"
+                android:text="TextViewasdfdsafadsfadfasdfadsfadsfasdfasdfasdfasdfasdfasdfasdfasdfasdf366666666\n2343asdfasdfasdfasdfasdfasdfasdfasdfsadfasdf"
+                app:layout_constraintStart_toStartOf="@+id/tvDescOfUse1"
+                app:layout_constraintTop_toBottomOf="@+id/tvDescOfUse1" />
+
+            <TextView
+                android:id="@+id/tvDescOfUse2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="8dp"
+                android:text="Name of color"
+                android:textSize="18dp"
+                android:textStyle="bold|italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.662"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvDescOfUseData1" />
+
+            <TextView
+                android:id="@+id/tvDescOfUseData2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:scrollHorizontally="false"
+                android:singleLine="false"
+                android:text="TextViewasdfdsafadsfadfasdfadsfadsfasdfasdfasdfasdfasdfasdfasdfasdfasdf366666666\n2343asdfasdfasdfasdfasdfasdfasdfasdfsadfasdf"
+                app:layout_constraintStart_toStartOf="@+id/tvDescOfUse2"
+                app:layout_constraintTop_toBottomOf="@+id/tvDescOfUse2" />
+
+            <TextView
+                android:id="@+id/tvDescOfUse3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="8dp"
+                android:text="Amount of color"
+                android:textSize="18dp"
+                android:textStyle="bold|italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvDescOfUseData2" />
+
+            <TextView
+                android:id="@+id/tvDescOfUseData3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:scrollHorizontally="false"
+                android:singleLine="false"
+                android:text="TextViewasdfdsafadsfadfasdfadsfadsfasdfasdfasdfasdfasdfasdfasdfasdfasdf366666666\n2343asdfasdfasdfasdfasdfasdfasdfasdfsadfasdf"
+                app:layout_constraintStart_toStartOf="@+id/tvDescOfUse3"
+                app:layout_constraintTop_toBottomOf="@+id/tvDescOfUse3" />
+
+            <TextView
+                android:id="@+id/tvDescOfUse4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="8dp"
+                android:text="Shelf live before opening"
+                android:textSize="18dp"
+                android:textStyle="bold|italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvDescOfUseData3" />
+
+            <TextView
+                android:id="@+id/tvDescOfUseData4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:scrollHorizontally="false"
+                android:singleLine="false"
+                android:text="TextViewasdfdsafadsfadfasdfadsfadsfasdfasdfasdfasdfasdfasdfasdfasdfasdf366666666\n2343asdfasdfasdfasdfasdfasdfasdfasdfsadfasdf"
+                app:layout_constraintStart_toStartOf="@+id/tvDescOfUse4"
+                app:layout_constraintTop_toBottomOf="@+id/tvDescOfUse4" />
+
+            <TextView
+                android:id="@+id/tvDescOfUse5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="8dp"
+                android:text="Shelf live after opening"
+                android:textSize="18dp"
+                android:textStyle="bold|italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvDescOfUseData4" />
+
+            <TextView
+                android:id="@+id/tvDescOfUseData5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:scrollHorizontally="false"
+                android:singleLine="false"
+                android:text="TextViewasdfdsafadsfadfasdfadsfadsfasdfasdfasdfasdfasdfasdfasdfasdfasdf366666666\n2343asdfasdfasdfasdfasdfasdfasdfasdfsadfasdf"
+                app:layout_constraintStart_toStartOf="@+id/tvDescOfUse5"
+                app:layout_constraintTop_toBottomOf="@+id/tvDescOfUse5" />
+
+            <TextView
+                android:id="@+id/tvDescOfUse6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="8dp"
+                android:text="Company name and address"
+                android:textSize="18dp"
+                android:textStyle="bold|italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvDescOfUseData5" />
+
+            <TextView
+                android:id="@+id/tvDescOfUseData6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:scrollHorizontally="false"
+                android:singleLine="false"
+                android:text="TextViewasdfdsafadsfadfasdfadsfadsfasdfasdfasdfasdfasdfasdfasdfasdfasdf366666666\n2343asdfasdfasdfasdfasdfasdfasdfasdfsadfasdf"
+                app:layout_constraintStart_toStartOf="@+id/tvDescOfUse6"
+                app:layout_constraintTop_toBottomOf="@+id/tvDescOfUse6" />
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$USER_HOME$/Desktop/Development/ionic/helloWorld/platforms/android/CircleSeek/gradle.properties" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/Development/ionic/helloWorld/platforms/android/CircleSeek/local.properties" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/Development/ionic/helloWorld/platforms/android/MyApplication2/gradle.properties" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/Development/ionic/helloWorld/platforms/android/MyApplication2/local.properties" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/Development/ionic/helloWorld/platforms/android/Tabs/gradle.properties" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/Development/ionic/helloWorld/platforms/android/Tabs/local.properties" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/Development/ionic/helloWorld/platforms/android/test/gradle.properties" charset="UTF-8" />
+    <file url="file://$USER_HOME$/Desktop/Development/ionic/helloWorld/platforms/android/test/local.properties" charset="UTF-8" />
+  </component>
+</project>

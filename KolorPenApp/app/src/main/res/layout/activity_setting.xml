@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen_background"
+    android:keepScreenOn="true"
+    tools:context=".SettingActivity">
+
+    <ImageView
+        android:id="@+id/imageQuickTutorial"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginStart="116dp"
+        android:background="@drawable/quick_tutorial"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/imageUserGuide"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+    <TextView
+        android:id="@+id/tvQuickTutorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Quick Tutorial"
+        android:clickable="true"
+        android:textSize="28dp"
+        app:layout_constraintStart_toStartOf="@+id/tvUserGuide"
+        app:layout_constraintTop_toTopOf="@+id/imageQuickTutorial" />
+
+    <ImageView
+        android:id="@+id/imageUserGuide"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/user_guide"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/imageApplicationUpdate"
+        app:layout_constraintStart_toStartOf="@+id/imageQuickTutorial"
+        app:layout_constraintTop_toBottomOf="@+id/imageQuickTutorial" />
+
+    <TextView
+        android:id="@+id/tvUserGuide"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@"
+        android:textSize="28dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="@+id/tvApplicationUpdate"
+        app:layout_constraintTop_toTopOf="@+id/imageUserGuide" />
+
+    <ImageView
+        android:id="@+id/imageApplicationUpdate"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/application_update"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageUserGuide"
+        app:layout_constraintTop_toBottomOf="@+id/imageUserGuide" />
+
+    <TextView
+        android:id="@+id/tvApplicationUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
+        android:layout_marginTop="28dp"
+        android:text="ApplicationUpdate"
+        android:textSize="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageApplicationUpdate" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="192dp"
+        android:text="Beauty Shop"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textSize="42dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
