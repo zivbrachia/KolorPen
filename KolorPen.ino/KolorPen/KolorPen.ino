@@ -4,7 +4,13 @@
 #define PEN 'P'
 #define FREQUENCY 'F'
 #define VOLUME 'O'
+#define SECURITY 'S'
+#define ERROR_OCCURED 'E'
 #define BIG_NUMBER 1000000
+#define SECURITY1_ALERT_DEFAULT LOW
+#define SECURITY2_ALERT_DEFAULT LOW
+#define SECURITY3_ALERT_DEFAULT LOW
+#define SECURITY4_ALERT_DEFAULT LOW
 
 enum EPinOutput
 {
@@ -12,11 +18,11 @@ enum EPinOutput
   ePIN_MAP_PEDAL = 2,
   ePIN_MAP_PEN_1_SELECT = 4,
   ePIN_MAP_PEN_2_SELECT = 5,
-  //ePIN_MAP_SECURITY1 = 5,
-  //ePIN_MAP_SECURITY2 = 6,
-  //ePIN_MAP_SECURITY3 = 7,
-  //ePIN_MAP_SECURITY4 = 8,
-  //ePIN_MAP_ERROR = 9,
+  ePIN_MAP_SECURITY1 = 3,
+  ePIN_MAP_SECURITY2 = 7,
+  ePIN_MAP_SECURITY3 = 8,
+  ePIN_MAP_SECURITY4 = 11,
+  ePIN_MAP_ERROR = 12,
   ePIN_MAP_VOLUME_ANALOG = 6, //9,
   ePIN_MAP_DPS = 10
 };
@@ -30,6 +36,7 @@ unsigned long pedalPressDuration = 0; // show time accumulator inmillisecond of 
 int buttonState;                      // the current reading from the input pin
 int lastButtonState = LOW;            // the previous reading from the input pin
 unsigned long lastDebounceTime = 0; // the last time the output pin was toggled
+unsigned long lastErrorOccured = 0;
 unsigned long debounceDelay = 50;        // the debounce time; increase if the output flickers
 // ------ PEN SELECTION ----------------------------------------------------------------------------
 int ePenSelect = 1; // ePenSelect = 1, ePenSelect = 2
@@ -78,7 +85,7 @@ void setup()
   //
   timer.setInterval(1000, repeatMe);
   Timer1.initialize(timerDPS);
-  Timer1.stop() ;
+  //Timer1.stop();  // Ziv 2018/06/24
   Timer1.attachInterrupt( setToggle ); // attach the service routine here
   digitalWrite(ePIN_MAP_PEN_1_SELECT, ePenSelect); 
 }
@@ -91,7 +98,11 @@ long calcDPS(int pulsePerSec) {
 void setupPins()
 {
   pinMode(ePIN_MAP_PEDAL, INPUT_PULLUP);
-  //pinMode(ePIN_MAP_SECURITY1, INPUT);
+  pinMode(ePIN_MAP_SECURITY1, INPUT);
+  pinMode(ePIN_MAP_SECURITY2, INPUT);
+  pinMode(ePIN_MAP_SECURITY3, INPUT);
+  pinMode(ePIN_MAP_SECURITY4, INPUT);
+  pinMode(ePIN_MAP_ERROR, INPUT);
   //pinMode(ePIN_MAP_SECURITY2, INPUT);
   //pinMode(ePIN_MAP_SECURITY3, INPUT);
   //pinMode(ePIN_MAP_SECURITY4, INPUT);
@@ -103,12 +114,8 @@ void setupPins()
 
 void treatCheckSecurity()
 {
-  //int sec1 = digitalRead(ePIN_MAP_SECURITY1);
-  //int sec2 = digitalRead(ePIN_MAP_SECURITY2);
-  //int sec3 = digitalRead(ePIN_MAP_SECURITY3);
-  //int sec4 = digitalRead(ePIN_MAP_SECURITY4);
-
-  // TODO: algoritem for security validation
+  securityViolation();
+  
   isValidSecurity = true;
 }
 
@@ -168,6 +175,7 @@ void loop()
 {
   timer.run();
   treatCheckSecurity();
+  treatErrorOccured();
   if (isValidSecurity == true)
   { // device is good to go
     treatPenSelect();
@@ -227,7 +235,34 @@ void commandDPS(String command) { // ['F', ' ', '0', '/n'] >> ['F', ' ', '1', '0
   //analogWrite(ePIN_MAP_FREQ_ANALOG, number); // TODO
   writeToSerial("frequenscy: " + s + "\n");
   timerDPS = calcDPS(number);
+  Timer1.stop();  // Ziv 2018/06/24
+  Timer1.setPeriod(timerDPS); // Ziv 2018/06/24
+  Timer1.start(); // Ziv 2018/06/24
   
+}
+
+void treatErrorOccured() {
+  int err = digitalRead(ePIN_MAP_ERROR);
+  if (err == HIGH) {
+    writeToSerial("E 1\n");
+    while (true) {
+      
+    }
+  }
+}
+
+void securityViolation() {
+  if ( (SECURITY1_ALERT_DEFAULT != digitalRead(ePIN_MAP_SECURITY1)) || 
+       (SECURITY2_ALERT_DEFAULT != digitalRead(ePIN_MAP_SECURITY2)) ||
+       (SECURITY3_ALERT_DEFAULT != digitalRead(ePIN_MAP_SECURITY3)) ||
+       (SECURITY4_ALERT_DEFAULT != digitalRead(ePIN_MAP_SECURITY4)) )
+ {
+    writeToSerial("S 1\n");
+    digitalWrite(ePIN_MAP_PEN_1_SELECT, LOW);
+    digitalWrite(ePIN_MAP_PEN_2_SELECT, LOW);
+    while (true) {
+    }
+  }
 }
 
 void commandVolume(String command) { // ['F', ' ', '0', '/n'] >> ['F', ' ', '1', '0', '0', '/n']
@@ -261,11 +296,9 @@ void treatCommand(String command)
   case VOLUME:
     commandVolume(command);
     break;
-    //  case 4:
-    //    analogWrite(ePIN_MAP_POWER_ANALOG, value);  // TODO value
-    //    break;
-    //  case 5:
-    // reset treatment state ??
+//  case SECURITY:
+//    commandSecurityViolation(command)
+//    break;
 
   default:
     // statements
@@ -318,11 +351,9 @@ void setPedalPressed()
     pedalPressDuration = 0;
     writeToSerial("p 1\n" );
     //
-    Timer1.stop();
-    Timer1.setPeriod(timerDPS) ;
-    Timer1.start();
-    //Timer1.initialize(timerDPS);
-    
+//    Timer1.stop();
+//    Timer1.setPeriod(timerDPS);
+//    Timer1.start();
   }
   else
   {
@@ -341,7 +372,7 @@ void setPedalUnpressed()
     pedalPressDuration = millis() - pedalPressStartTime;
     writeToSerial("p 0\n" );
     ePedalStart = false;
-    Timer1.stop();
+    //Timer1.stop(); // Ziv 2018/06/24
     dpsAbsuloteStop();
   }
   else
